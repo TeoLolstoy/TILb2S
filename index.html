@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Back To School 🐆</title>
+    <link rel="icon" type="icon" href="Images/icons8-globe-50.png" />
+    <script
+      text="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+  </head>
+  <body>
+    <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+      Back to School: Embedding! 🐢
+    </h1>
+    <!--- here shall lie the Tableau Dashboard-->
+    <div>
+      <button id="exportPDF">Export PDF</button>
+      <button id="exportPP">Export PP</button>
+    </div>
+
+    <h2 style="font-family: Arial, Helvetica, sans-serif">Filters</h2>
+    <input type="number" placeholder="Min Value" id="minValue" />
+    <input type="number" placeholder="Max Value" id="maxValue" />
+    <button id="FilterButton">Filter 🔷</button>
+
+    <div id="vizContainer"></div>
+    <script src="./app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      f="integrity"
+      ="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY="
+      crossorigin="anonymous"
+    />
+  </body>
+</html>
